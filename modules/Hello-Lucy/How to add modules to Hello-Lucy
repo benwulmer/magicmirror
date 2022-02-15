@@ -1,0 +1,84 @@
+If you know how to issue a pull request, that would be great. Add your modules as described below.
+Test to make sure your modifications are working and send the pull request to the repo.
+
+Otherwise, continue with these instructions.
+
+1. You can ask me and I'll do it for you, especially if you are not comfortable making code modifications.
+
+2. Again, you can ask me and I'll gladly do it for you.
+
+3. You want to do it yourself? Alrighty then! You'll still have to tell me so I can add it to the repo.
+
+4. Open the sentences.json file in a code editor
+
+You'll see that most of the commands come in pairs.
+The easiest way to add your commands would be to copy a pair of HIDE and SHOW commmands.
+That's two complete lines including the comma.
+Example:
+
+"HIDE ALARM",
+"SHOW ALARM",
+
+Now paste it in between an existing pair and the next existing pair. Alphabetically would be nice. :-)
+Example:
+
+"HIDE CARDS",
+"SHOW CARDS",
+"HIDE ALARM",
+"SHOW ALARM",
+"HIDE CENSUS",
+"SHOW CENSUS",
+
+Now edit the one you pasted with the command of your choice so it looks like this.
+In this example "CATERING" would be your command.
+
+"HIDE CARDS",
+"SHOW CARDS",
+"HIDE CATERING",
+"SHOW CATERING",
+"HIDE CENSUS",
+"SHOW CENSUS",
+
+Save the sentences.json file and close.
+
+
+
+5. Open the checkCommands.json file in a code editor to avoid syntax problems. (known quote issue)
+
+Copy lines 4 and 5 entirely, including the commas. These are your template for adding your module to the array.
+Paste on line 6. Create a blank line above and below your pasted line.
+
+You now see this on lines 7 and 8. You'll only be changing "COMMAND" (twice) and "MMM-ModuleName" (twice).
+
+["SHOW","COMMAND","","","true","MMM-ModuleName",""],
+["HIDE","COMMAND","","","false","MMM-ModuleName",""],
+         ^^^^^^^                 ^^^^^^^^^^^^^^
+
+1. Now change "COMMAND" in both lines to the command word you would like to use.
+   It MUST be in double quotes and it MUST be CAPITALS. See example.
+
+
+2. Now change "MMM-ModuleName" in both lines to the EXACT module name you would like to use.
+   Module name MUST be in double quotes. Module names are case sensitive.
+
+Save and close.
+
+
+You've just added a module for use with Hello-Lucy OR you fucked up. ;-)
+
+
+6. You should have let me do it for you. :-)
+
+7. Tell me the command and module name and I will add it to the repo. Thanks!
+
+
+
+## Important!
+
+When adding to the checkCommands.json file. The last array in the file CANNOT have a comma after it
+
+
+
+
+
+

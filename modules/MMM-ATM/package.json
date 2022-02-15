@@ -1,0 +1,22 @@
+{
+  "name": "mmm-atm",
+  "version": "1.0.0",
+  "description": "na",
+  "main": "MMM-ATM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykle1/MMM-ATM.git"
+  },
+  "author": "ben ulmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mykle1/MMM-ATM/issues"
+  },
+  "homepage": "https://github.com/mykle1/MMM-ATM#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

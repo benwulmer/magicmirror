@@ -1,0 +1,50 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! Go to - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+ 
+ .MMM-ATM .header{
+  color: white;               /* Header color. Default is white. */
+  text-align: left;           /* Align header text. (left, center, right) */
+}
+
+.MMM-ATM .category {
+  color: white;               /* Color the category. Default is white. */
+  text-align: left;           /* Align the category. (left, center, right) */
+}
+
+.MMM-ATM .difficulty {
+  color: white;               /* Color the difficulty. Default is white. */
+  text-align: left;           /* Align the difficulty. (left, center, right) */
+}
+
+.MMM-ATM .question {
+  color: white;               /* Color the question. Default is white. */
+  text-align: left;           /* Align the question. (left, center, right) */
+}
+
+.MMM-ATM .answer1 {
+  color: white;               /* Color possible answer1. Default is white. */
+  text-align: left;           /* Align possible answer1. (left, center, right) */
+}
+
+.MMM-ATM .answer2 {
+  color: white;               /* Color possible answer2. Default is white. */
+  text-align: left;           /* Align possible answer2. (left, center, right) */
+}
+
+.MMM-ATM .answer3 {
+  color: white;               /* Color possible answer3. Default is white. */
+  text-align: left;           /* Align possible answer3. (left, center, right) */
+}
+
+.MMM-ATM .answer4 {
+  color: white;               /* Color possible answer4. Default is white. */
+  text-align: left;           /* Align possible answer4. (left, center, right) */
+}
+
+.MMM-ATM .correct {
+  color: white;               /* Color the correct answer. Default is white. */
+  text-align: left;           /* Align the correct question. (left, center, right) */
+}
